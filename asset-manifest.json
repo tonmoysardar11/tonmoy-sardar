@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.41f53b16.css",
-    "main.js": "/static/js/main.b4dca0d2.js",
-    "static/js/787.f9eac86e.chunk.js": "/static/js/787.f9eac86e.chunk.js",
-    "static/media/pj.png": "/static/media/pj.e6c3b416d3f2087c1c17.png",
-    "static/media/mf.png": "/static/media/mf.913b6f55524d5d7294e7.png",
-    "static/media/pic.png": "/static/media/pic.eb6dcc3b0e2434c36821.png",
-    "static/media/cwh.png": "/static/media/cwh.98307c89d80c3032b354.png",
-    "static/media/at.png": "/static/media/at.67d1848c95292a60e9ea.png",
-    "static/media/insta.png": "/static/media/insta.5eef2a1d661a1df3127a.png",
-    "static/media/logo.png": "/static/media/logo.c2abe54121e39b084cb7.png",
-    "index.html": "/index.html",
-    "main.41f53b16.css.map": "/static/css/main.41f53b16.css.map",
-    "main.b4dca0d2.js.map": "/static/js/main.b4dca0d2.js.map",
-    "787.f9eac86e.chunk.js.map": "/static/js/787.f9eac86e.chunk.js.map"
+    "main.css": "/tonmoy-sardar/static/css/main.41f53b16.css",
+    "main.js": "/tonmoy-sardar/static/js/main.ff86dd01.js",
+    "static/js/787.f9eac86e.chunk.js": "/tonmoy-sardar/static/js/787.f9eac86e.chunk.js",
+    "static/media/pj.png": "/tonmoy-sardar/static/media/pj.e6c3b416d3f2087c1c17.png",
+    "static/media/mf.png": "/tonmoy-sardar/static/media/mf.913b6f55524d5d7294e7.png",
+    "static/media/pic.png": "/tonmoy-sardar/static/media/pic.eb6dcc3b0e2434c36821.png",
+    "static/media/cwh.png": "/tonmoy-sardar/static/media/cwh.98307c89d80c3032b354.png",
+    "static/media/at.png": "/tonmoy-sardar/static/media/at.67d1848c95292a60e9ea.png",
+    "static/media/insta.png": "/tonmoy-sardar/static/media/insta.5eef2a1d661a1df3127a.png",
+    "static/media/logo.png": "/tonmoy-sardar/static/media/logo.c2abe54121e39b084cb7.png",
+    "index.html": "/tonmoy-sardar/index.html",
+    "main.41f53b16.css.map": "/tonmoy-sardar/static/css/main.41f53b16.css.map",
+    "main.ff86dd01.js.map": "/tonmoy-sardar/static/js/main.ff86dd01.js.map",
+    "787.f9eac86e.chunk.js.map": "/tonmoy-sardar/static/js/787.f9eac86e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41f53b16.css",
-    "static/js/main.b4dca0d2.js"
+    "static/js/main.ff86dd01.js"
   ]
 }
