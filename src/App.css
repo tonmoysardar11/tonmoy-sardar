@@ -4,6 +4,7 @@
 #dp{
     border-radius: 50%;
 }
-body{
-    scroll-behavior: smooth;
-}
+/* *{
+    border: 1px solid red !important;
+} */
+

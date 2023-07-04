@@ -3,11 +3,11 @@ import logo from './media/logo.png'
 
 const Footer = () => {
     return (
-        <footer className="text-gray-400 bg-black body-font">
+        <footer className="text-gray-400 bg-transparent body-font">
             <div className="container px-20 py-8 flex items-center sm:flex-row flex-col">
-                <a href='/' className="flex title-font font-medium items-center md:justify-start justify-center text-white">
+                <a href='/tonmoy-sardar/' className="flex title-font font-medium items-center md:justify-start justify-center text-white">
                     <img src={logo} alt="" id='logo' />
-                    <span className="ml-6 text-2xl text-cyan-300 font-bold">TONMOY</span><span className="ml-2 text-xl font-bold">SARDAR</span>
+                    <span className="ml-6 text-2xl text-cyan-500 font-bold">TONMOY</span><span className="ml-2 text-xl font-bold">SARDAR</span>
                 </a>
                 <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2023 Tonmoy Sardar
                 </p>

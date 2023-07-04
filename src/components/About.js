@@ -6,13 +6,14 @@ import insta from './media/insta.png'
 import gh from './media/gh.png'
 import li from './media/li.png'
 
+
 const About = () => {
     return (
-        <section className="text-gray-400 bg-black body-font">
+        <section className="text-gray-400 bg-transparent body-font z-5">
             <div className="container py-24 mx-auto flex flex-col">
                 <div className="lg:w-4/6 mx-auto">
                     <div className="flex flex-col sm:flex-row mt-10">
-                        <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8 md:border-r md:border-b-0 border-b border-gray-800">
+                        <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8 md:border-r md:border-b-0 border-b border-gray-800 z-5">
                             <div className="w-40 h-40 rounded-full inline-flex items-center justify-center bg-gray-800 text-gray-600">
                                 <img src={pic} alt="" id='dp' />
                             </div>

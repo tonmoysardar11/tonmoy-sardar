@@ -10,13 +10,13 @@ import at from './media/at.png'
 const Projects = () => {
     
     return (
-        <div className='bg-black' 
+        <div className='bg-transparent pt-20' 
         id='projects'
         >
             <div className='pt-2'>
-                <h1 className="title-font sm:text-4xl text-3xl mb-4 mx-20 font-medium text-white">PROJECTS
+            <h1 className="title-font sm:text-4xl text-3xl mx-20 mb-4 font-medium text-white">PROJECTS
                 </h1>
-                <div className="h-1 w-20 bg-indigo-500 mx-20 rounded"></div>
+                <div className="h-1 w-20 bg-cyan-500 mb-20 mx-20 rounded"></div>
                 <Bounce>
                 <section className="text-gray-400 body-font animate__animated animate__bounceInUp">
                     <div className="container mx-auto flex py-20 md:flex-row flex-col items-center">
