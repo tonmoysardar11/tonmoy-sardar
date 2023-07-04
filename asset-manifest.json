@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tonmoy-sardar/static/css/main.5087f973.css",
-    "main.js": "/tonmoy-sardar/static/js/main.0a4484db.js",
+    "main.js": "/tonmoy-sardar/static/js/main.949cc3ed.js",
     "static/js/787.f9eac86e.chunk.js": "/tonmoy-sardar/static/js/787.f9eac86e.chunk.js",
     "static/media/pj.png": "/tonmoy-sardar/static/media/pj.e6c3b416d3f2087c1c17.png",
     "static/media/mf.png": "/tonmoy-sardar/static/media/mf.913b6f55524d5d7294e7.png",
@@ -12,11 +12,11 @@
     "static/media/logo.png": "/tonmoy-sardar/static/media/logo.c2abe54121e39b084cb7.png",
     "index.html": "/tonmoy-sardar/index.html",
     "main.5087f973.css.map": "/tonmoy-sardar/static/css/main.5087f973.css.map",
-    "main.0a4484db.js.map": "/tonmoy-sardar/static/js/main.0a4484db.js.map",
+    "main.949cc3ed.js.map": "/tonmoy-sardar/static/js/main.949cc3ed.js.map",
     "787.f9eac86e.chunk.js.map": "/tonmoy-sardar/static/js/787.f9eac86e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5087f973.css",
-    "static/js/main.0a4484db.js"
+    "static/js/main.949cc3ed.js"
   ]
 }
