@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className="text-gray-400 bg-transparent body-font">
             <div className="container px-20 py-8 flex items-center sm:flex-row flex-col">
-                <a href='/tonmoy-sardar' className="flex title-font font-medium items-center md:justify-start justify-center text-white">
+                <a href='/' className="flex title-font font-medium items-center md:justify-start justify-center text-white">
                     <img src={logo} alt="" id='logo' />
                     <span className="ml-6 text-2xl text-cyan-500 font-bold">TONMOY</span><span className="ml-2 text-xl font-bold">SARDAR</span>
                 </a>

@@ -9,7 +9,7 @@ import li from './media/li.png'
 
 const About = () => {
     return (
-        <section className="text-gray-400 bg-transparent body-font z-5">
+        <section className="text-gray-400 bg-transparent body-font z-5" id='about'>
             <div className="container py-24 mx-auto flex flex-col">
                 <div className="lg:w-4/6 mx-auto">
                     <div className="flex flex-col sm:flex-row mt-10">
