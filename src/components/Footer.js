@@ -1,17 +1,19 @@
 import React from 'react'
 import logo from './media/logo.png'
+import { useGlitch } from 'react-powerglitch'
 
 const Footer = () => {
+    const glitch=useGlitch();
     return (
         <footer className="text-gray-400 bg-transparent body-font">
             <div className="container px-20 py-8 flex items-center sm:flex-row flex-col">
-                <a href='/' className="flex title-font font-medium items-center md:justify-start justify-center text-white">
+                <div className="flex title-font font-medium items-center md:justify-start justify-center text-white">
                     <img src={logo} alt="" id='logo' />
-                    <span className="ml-6 text-2xl text-cyan-500 font-bold">TONMOY</span><span className="ml-2 text-xl font-bold">SARDAR</span>
-                </a>
+                    <span ref={glitch.ref} className="ml-6 text-2xl text-cyan-500 font-bold">TONMOY</span><span  ref={glitch.ref}className="ml-2 text-xl font-bold">SARDAR</span>
+                </div>
                 <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2023 Tonmoy Sardar
                 </p>
-                <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">officialtonmoy11@gmail.com</p>
+                <p className="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">officialtonmoy11@gmail.com</p>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                     <a className="text-gray-400" href='https://www.facebook.com/ImTonmay11'>
                         <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">

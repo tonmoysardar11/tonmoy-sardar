@@ -1,11 +1,11 @@
 {"fullscreen":{
   "enable":true,
-  "zIndex":-10
+  "zIndex":-100
 },
   
   "particles": {
     "number": {
-      "value": 134,
+      "value": 50,
       "density": {
         "enable": true,
         "value_area": 800

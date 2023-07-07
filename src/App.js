@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import ParticleBG from './components/ParticleBG';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import Social from './components/Social';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <ParticleBG/>
       <Navbar />
       <About />
+      <Social/>
       <Skills />
       <Projects />
       <Contact />

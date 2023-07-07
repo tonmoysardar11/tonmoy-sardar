@@ -36,7 +36,7 @@ const Contact = () => {
     return (
         <section className="text-gray-400 bg-transparent body-font relative" id='contact'>
             <div className="container py-24 mx-auto">
-                <h1 className="title-font sm:text-4xl text-3xl mx-20 mb-4 font-medium text-white">CONTACT ME
+                <h1 className="title-font sm:text-4xl text-3xl mx-20 mb-4 font-medium text-white">CONNECT WITH ME
                 </h1>
                 <div className="h-1 w-20 bg-cyan-500 mb-20 mx-20 rounded"></div>
                 <div className="lg:w-1/2 md:w-2/3 lg:mx-auto md:mx-auto mx-20">
@@ -76,7 +76,7 @@ const Contact = () => {
                         <div className="p-2 w-full animate__animated animate__bounceIn animate__delay-1s">
                             <a href={mailto}>
                                 <Bounce>
-                                    <button className="flex mx-auto text-black bg-cyan-300 border-0 py-2 px-8 focus:outline-none hover:px-9 rounded-full text-lg disabled:opacity-40 animate__animated animate__bounceIn animate__delay-1s" onClick={reset} disabled={!(name.length > 3 && sub.length > 3 && msg.length > 9 && email.includes('@'))}>Send Message</button>
+                                    <button className="flex mx-auto text-black bg-cyan-300 border-0 py-2 px-8 focus:outline-none hover:px-9 hover:bg-cyan-200 rounded-full text-lg disabled:bg-cyan-700 animate__animated animate__bounceIn animate__delay-1s" onClick={reset} disabled={!(name.length > 3 && sub.length > 3 && msg.length > 9 && email.includes('@'))}>Send Message</button>
                                 </Bounce>
                             </a>
                         </div>

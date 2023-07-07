@@ -1,10 +1,23 @@
+
+
 #logo{
     width: 50px;
 }
 #dp{
     border-radius: 50%;
 }
-/* *{
-    border: 1px solid red !important;
-} */
+::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 5px;
+}
 
+::-webkit-scrollbar-track {
+    background: rgb(0,0,0);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(6, 181, 212);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(7, 218, 255);
+    width: 8px;
+  }

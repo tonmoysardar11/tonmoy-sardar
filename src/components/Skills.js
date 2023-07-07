@@ -19,32 +19,32 @@ const Skills = () => {
                     <div className="flex flex-wrap items-center justify-center -m-4 mx-auto">
                         <Flip>
                         <div className="w-30 h-30 mx-5 my-5 rounded-full inline-flex items-center justify-center bg-gray-800 text-gray-600 animate__animated animate__flipInX animate__delay-1s">
-                            <img src={html} alt="" id='dp' />
+                            <img src={html} alt=""  />
                         </div>
                         </Flip>
                         <Flip>
                         <div className="w-30 h-30 mx-5 my-5 rounded-full inline-flex items-center justify-center bg-gray-800 text-gray-600 animate__animated animate__flipInX animate__delay-1s">
-                            <img src={css} alt="" id='dp' />
+                            <img src={css} alt=""  />
                         </div>
                         </Flip>
                         <Flip>
                         <div className="w-30 h-30 mx-5 my-5 rounded-full inline-flex items-center justify-center bg-gray-800 text-gray-600 animate__animated animate__flipInX animate__delay-1s">
-                            <img src={js} alt="" id='dp' />
+                            <img src={js} alt=""  />
                         </div>
                         </Flip>
                         <Flip>
                         <div className="w-30 h-30 mx-5 my-5 rounded-full inline-flex items-center justify-center bg-gray-800 text-gray-600 animate__animated animate__flipInX animate__delay-1s">
-                            <img src={bs} alt="" id='dp' />
+                            <img src={bs} alt=""  />
                         </div>
                         </Flip>
                         <Flip>
                         <div className="w-30 h-30 mx-5 my-5 rounded-full inline-flex items-center justify-center bg-gray-800 text-gray-600 animate__animated animate__flipInX animate__delay-1s">
-                            <img src={react} alt="" id='dp' />
+                            <img src={react} alt=""  />
                         </div>
                         </Flip>
                         <Flip>
                         <div className="w-30 h-30 mx-5 my-5 rounded-full inline-flex items-center justify-center bg-gray-800 text-gray-600 animate__animated animate__flipInX animate__delay-1s">
-                            <img src={gh} alt="" id='dp' />
+                            <img src={gh} alt=""  />
                         </div>
                         </Flip>
                     </div>

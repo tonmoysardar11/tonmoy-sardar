@@ -1,5 +1,0 @@
-"background": {
-    "color": {
-      "value": "#000000"
-    }
-  },
