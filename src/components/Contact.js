@@ -36,10 +36,10 @@ const Contact = () => {
     return (
         <section className="text-gray-400 bg-transparent body-font relative" id='contact'>
             <div className="container py-24 mx-auto">
-                <h1 className="title-font sm:text-4xl text-3xl mx-20 mb-4 font-medium text-white">CONNECT WITH ME
+                <h1 className="title-font sm:text-4xl text-3xl mx-10 lg:mx-20 mb-4 font-medium text-white">CONNECT WITH ME
                 </h1>
-                <div className="h-1 w-20 bg-cyan-500 mb-20 mx-20 rounded"></div>
-                <div className="lg:w-1/2 md:w-2/3 lg:mx-auto md:mx-auto mx-20">
+                <div className="h-1 w-20 bg-cyan-500 mb-20 mx-10 lg:mx-20 rounded"></div>
+                <div className="lg:w-1/2 md:w-2/3 lg:mx-auto md:mx-auto mx-10 lg:mx-20">
                     <div className="flex flex-wrap -m-2">
                         <div className="p-2 w-1/2 ">
                             <Bounce>
@@ -60,8 +60,8 @@ const Contact = () => {
                         <div className="p-2 w-full ">
                             <Bounce>
                                 <div className="relative animate__animated animate__bounceInUp">
-                                    <label htmlFor="name" className="leading-7 text-sm text-gray-400">Subject</label>
-                                    <input type="text" id="name" name="name" className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-cyan-500 focus:bg-gray-900 focus:ring-2 focus:ring-cyan-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" onChange={changeSub} value={sub} />
+                                    <label htmlFor="subject" className="leading-7 text-sm text-gray-400">Subject</label>
+                                    <input type="text" id="subject" name="name" className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-cyan-500 focus:bg-gray-900 focus:ring-2 focus:ring-cyan-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" onChange={changeSub} value={sub} />
                                 </div>
                             </Bounce>
                         </div>

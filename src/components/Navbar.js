@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from './media/logo.png'
+import logo from './media/logo.webp'
 
 
 const Navbar = () => {
@@ -10,25 +10,29 @@ const Navbar = () => {
     return (
         <header className="fixed z-10 text-gray-400 bg-black shadow-2xl w-full body-font">
             <div className="container flex flex-wrap py-5 flex-col md:flex-row items-center">
-                <a className="flex mx-20 title-font font-medium items-center text-white mb-4 md:mb-0" href='/'>
-                    <img src={logo} alt="" id='logo' />
+                <a className="flex mx-10 md:mx-20 title-font font-medium items-center text-white mb-4 md:mb-0" href='/'>
+                    <img src={logo} alt="" id='logo' width={40} height={40}/>
                     <span className="ml-6 text-2xl text-cyan-500 font-bold">TONMOY</span><span className="ml-2 text-xl font-bold">SARDAR</span>
                 </a>
                 <nav className="md:ml-auto mx-20 flex flex-wrap items-center text-base justify-center">
                     <div>
-                    <a className={location==='about'? "mx-5 text-white":"mx-5 hover:text-white"} href='/tonmoy-sardar/#about' onClick={() => path('about')}>About Me</a>
-                    <div className={location==='about'?"h-1 w-100 mx-5 mt-1 bg-cyan-500 rounded":''}></div>
+                        <a className="mx-5 hover:text-white" href='/static/media/Tonmoy Sardar.13a463370c423a064589.pdf' >Resume</a>
+
                     </div>
-                    <div> <a className={location==='skills'? "mx-5 text-white":"mx-5 hover:text-white"} href='/tonmoy-sardar/#skills' onClick={() => path('skills')}>Skills</a>
-                    <div className={location==='skills'?"h-1 w-100 mx-5 mt-1 bg-cyan-500 rounded":''}></div>
+                    <div>
+                        <a className={location === 'about' ? "mx-5 text-white" : "mx-5 hover:text-white"} href='/tonmoy-sardar/#about' onClick={() => path('about')}>About Me</a>
+                        <div className={location === 'about' ? "h-1 w-100 mx-5 mt-1 bg-cyan-500 rounded" : ''}></div>
+                    </div>
+                    <div> <a className={location === 'skills' ? "mx-5 text-white" : "mx-5 hover:text-white"} href='/tonmoy-sardar/#skills' onClick={() => path('skills')}>Skills</a>
+                        <div className={location === 'skills' ? "h-1 w-100 mx-5 mt-1 bg-cyan-500 rounded" : ''}></div>
                     </div>
 
-                    <div> <a className={location==='projects'? "mx-5 text-white":"mx-5 hover:text-white"} href='/tonmoy-sardar/#projects' onClick={() => path('projects')}>Projects</a>
-                    <div className={location==='projects'?"h-1 w-100 mx-5 mt-1 bg-cyan-500 rounded":''}></div>
+                    <div> <a className={location === 'projects' ? "mx-5 text-white" : "mx-5 hover:text-white"} href='/tonmoy-sardar/#projects' onClick={() => path('projects')}>Projects</a>
+                        <div className={location === 'projects' ? "h-1 w-100 mx-5 mt-1 bg-cyan-500 rounded" : ''}></div>
                     </div>
 
-                    <div> <a className={location==='contact'? "ml-5 text-white":"ml-5 hover:text-white"} href='/tonmoy-sardar/#contact' onClick={() => path('contact')}>Contact</a>
-                    <div className={location==='contact'?"h-1 w-100 ml-5 mt-1 bg-cyan-500 rounded":''}></div>
+                    <div> <a className={location === 'contact' ? "ml-5 text-white" : "ml-5 hover:text-white"} href='/tonmoy-sardar/#contact' onClick={() => path('contact')}>Contact</a>
+                        <div className={location === 'contact' ? "h-1 w-100 ml-5 mt-1 bg-cyan-500 rounded" : ''}></div>
                     </div>
 
                 </nav>
