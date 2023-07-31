@@ -3,7 +3,7 @@ import { Zoom } from "react-awesome-reveal";
 import mf from './media/mf.webp'
 import pj from './media/pj.webp'
 import cwh from './media/cwh.webp'
-import at from './media/at.webp'
+import ecom from './media/ecom.webp'
 
 
 
@@ -17,6 +17,25 @@ const Projects = () => {
                 <h1 className="title-font sm:text-4xl text-3xl mx-10 md:mx-20 mb-4 font-medium text-white">PROJECTS
                 </h1>
                 <div className="h-1 w-20 bg-cyan-500 mb-20 mx-10 md:mx-20 rounded"></div>
+                <Zoom>
+                    <section className="text-gray-400 body-font animate__animated animate__backInUp animate__slow">
+                        <div className="container mx-auto flex py-20 md:flex-row flex-col items-center">
+                            <div className=" mx-20 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                                <h1 className="title-font sm:text-4xl text-3xl mb-2 font-medium text-white">E-Commerce Store React App with Redux
+                                </h1>
+                                <div className="h-1 w-20 mb-4 bg-cyan-500 rounded"></div>
+                                <p className="mb-8 leading-relaxed">Making an E-Commerce Store with Itemlist, Category,Filter and active searchbar,cart facilities with discount options .Created using React JS,Redux,Tailwind,React-Router,Fetch-API.</p>
+                                <div className="flex justify-center flex-col md:flex-row">
+                                    <button className=" rounded-full inline-flex text-black bg-cyan-300 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"><a href='https://github.com/tonmoysardar11/ecommerce-website-with-redux'>Live Website</a></button>
+                                    <button className="md:ml-4 rounded-full inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg my-2"><a href='https://mycart-ecommerce-tonmoy.netlify.app/'>View Code</a></button>
+                                </div>
+                            </div>
+                            <div className="mx-20 lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                                <img className="object-cover object-center rounded" alt="hero" src={ecom} width={600} height={300}/>
+                            </div>
+                        </div>
+                    </section>
+                </Zoom>
                 <Zoom>
                     <section className="text-gray-400 body-font animate__animated animate__backInUp animate__slow">
                         <div className="container mx-auto flex py-20 md:flex-row flex-col items-center">
@@ -74,25 +93,7 @@ const Projects = () => {
                         </div>
                     </section>
                 </Zoom>
-                <Zoom>
-                    <section className="text-gray-400 body-font animate__animated animate__backInUp animate__slow">
-                        <div className="container mx-auto flex py-20 md:flex-row flex-col items-center">
-                            <div className=" mx-20 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                                <h1 className="title-font sm:text-4xl text-3xl mb-2 font-medium text-white">Advanced Todo React App
-                                </h1>
-                                <div className="h-1 w-20 mb-4 bg-cyan-500 rounded"></div>
-                                <p className="mb-8 leading-relaxed">Made an advanced Todo app where 3 separate sections available to display all todos,completed todos & pending todos with the functionality of create,read & delete component states.Created using React JS, Css3,Bootstarp.</p>
-                                <div className="flex justify-center flex-col md:flex-row">
-                                    <button className=" rounded-full inline-flex text-black bg-cyan-300 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"><a href='https://tonmoysardar11.github.io/Advanced-Todo/'>Live Website</a></button>
-                                    <button className="md:ml-4 rounded-full inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg my-2"><a href='https://github.com/tonmoysardar11/Advanced-Todo'>View Code</a></button>
-                                </div>
-                            </div>
-                            <div className="mx-20 lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                                <img className="object-cover object-center rounded" alt="hero" src={at} width={600} height={300}/>
-                            </div>
-                        </div>
-                    </section>
-                </Zoom>
+                
             </div>
         </div>
     )
