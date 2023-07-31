@@ -26,7 +26,7 @@ const Projects = () => {
                                 <div className="h-1 w-20 mb-4 bg-cyan-500 rounded"></div>
                                 <p className="mb-8 leading-relaxed">Making an E-Commerce Store with Itemlist, Category,Filter and active searchbar,cart facilities with discount options .Created using React JS,Redux,Tailwind,React-Router,Fetch-API.</p>
                                 <div className="flex justify-center flex-col md:flex-row">
-                                    <button className=" rounded-full inline-flex text-black bg-cyan-300 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"><a href='https://github.com/tonmoysardar11/ecommerce-website-with-redux'>Live Website</a></button>
+                                <button className=" rounded-full inline-flex text-black bg-cyan-300 border-0 py-2 px-6 focus:outline-none hover:bg-cyan-200 rounded text-lg my-2"><a href='https://github.com/tonmoysardar11/'>Live Website</a></button>
                                     <button className="md:ml-4 rounded-full inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg my-2"><a href='https://mycart-ecommerce-tonmoy.netlify.app/'>View Code</a></button>
                                 </div>
                             </div>
