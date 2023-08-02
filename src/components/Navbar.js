@@ -47,7 +47,7 @@ const Navbar = () => {
                     {/* <div>
                         <a className="mx-5 hover:text-white" href='/static/media/Tonmoy Sardar.13a463370c423a064589.pdf' >Resume</a>
                     </div> */}
-                    <button className=" mx-5 md:ml-5 rounded-full inline-flex text-black bg-cyan-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg my-2"><a href='https://drive.google.com/file/d/1XdfqXyp9XkEdCWcTNBOrMaZknVCyPL14/view?usp=drive_link'>Resume</a></button>
+                    <button className=" mx-5 md:ml-5 rounded-full inline-flex text-black bg-cyan-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg my-2"><a href='https://drive.google.com/file/d/1Io1vLBKmNs2G9Z7Tiukxxs6moKPmFmCp/view?usp=drive_link'>Resume</a></button>
 
                 </nav>
                 </div>
