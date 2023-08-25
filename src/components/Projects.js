@@ -2,8 +2,8 @@ import React from 'react'
 import { Zoom } from "react-awesome-reveal";
 import mf from './media/mf.webp'
 import pj from './media/pj.webp'
-import cwh from './media/cwh.webp'
 import ecom from './media/ecom.webp'
+import gm from './media/growwmore.webp'
 
 
 
@@ -32,6 +32,25 @@ const Projects = () => {
                             </div>
                             <div className="mx-20 lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                                 <img className="object-cover object-center rounded" alt="hero" src={ecom} width={600} height={300}/>
+                            </div>
+                        </div>
+                    </section>
+                </Zoom>
+                <Zoom>
+                    <section className="text-gray-400 body-font animate__animated animate__backInUp animate__slow">
+                        <div className="container mx-auto flex py-20 md:flex-row flex-col items-center">
+                            <div className=" mx-20 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                                <h1 className="title-font sm:text-4xl text-3xl mb-2 font-medium text-white">GrowwMore - US Stock Market App
+                                </h1>
+                                <div className="h-1 w-20 mb-4 bg-cyan-500 rounded"></div>
+                                <p className="mb-8 leading-relaxed">Made a US Stock market app with updated daily charts, get desired output using 1D, 1W, 1M filters, stocks news for daily updates.Created using React, Tailwind, Finnhub API, Recharts.</p>
+                                <div className="flex justify-center flex-col md:flex-row">
+                                    <button className=" rounded-full inline-flex text-black bg-cyan-300 border-0 py-2 px-6 focus:outline-none hover:bg-cyan-200 rounded text-lg"><a href='https://groww-more.netlify.app/'>Live Website</a></button>
+                                    <button className="md:ml-4 rounded-full inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg my-2"><a href='https://github.com/tonmoysardar11/stock'>View Code</a></button>
+                                </div>
+                            </div>
+                            <div className="mx-20 lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                                <img className="object-cover object-center rounded" alt="hero" src={cwh} width={600} height={300}/>
                             </div>
                         </div>
                     </section>
@@ -74,25 +93,7 @@ const Projects = () => {
                         </div>
                     </section>
                 </Zoom>
-                <Zoom>
-                    <section className="text-gray-400 body-font animate__animated animate__backInUp animate__slow">
-                        <div className="container mx-auto flex py-20 md:flex-row flex-col items-center">
-                            <div className=" mx-20 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                                <h1 className="title-font sm:text-4xl text-3xl mb-2 font-medium text-white">Coding Tutorial Home Page
-                                </h1>
-                                <div className="h-1 w-20 mb-4 bg-cyan-500 rounded"></div>
-                                <p className="mb-8 leading-relaxed">Made a home page of coding tutorial website with full responsiveness.Created using Html5, Css3, JavaScript,Bootstrap, Typer Js.</p>
-                                <div className="flex justify-center flex-col md:flex-row">
-                                    <button className=" rounded-full inline-flex text-black bg-cyan-300 border-0 py-2 px-6 focus:outline-none hover:bg-cyan-200 rounded text-lg"><a href='https://tonmoysardar11.github.io/clone_codewithharry/'>Live Website</a></button>
-                                    <button className="md:ml-4 rounded-full inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg my-2"><a href='https://github.com/tonmoysardar11/clone_codewithharry'>View Code</a></button>
-                                </div>
-                            </div>
-                            <div className="mx-20 lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                                <img className="object-cover object-center rounded" alt="hero" src={cwh} width={600} height={300}/>
-                            </div>
-                        </div>
-                    </section>
-                </Zoom>
+                
                 
             </div>
         </div>
