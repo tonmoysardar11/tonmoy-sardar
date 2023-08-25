@@ -50,7 +50,7 @@ const Projects = () => {
                                 </div>
                             </div>
                             <div className="mx-20 lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                                <img className="object-cover object-center rounded" alt="hero" src={cwh} width={600} height={300}/>
+                                <img className="object-cover object-center rounded" alt="hero" src={gm} width={600} height={300}/>
                             </div>
                         </div>
                     </section>
