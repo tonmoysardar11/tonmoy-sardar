@@ -45,7 +45,7 @@ const Projects = () => {
                                 <div className="h-1 w-20 mb-4 bg-cyan-500 rounded"></div>
                                 <p className="mb-8 leading-relaxed">Made a US Stock market app with updated daily charts, get desired output using 1D, 1W, 1M filters, stocks news for daily updates.Created using React, Tailwind, Finnhub API, Recharts.</p>
                                 <div className="flex justify-center flex-col md:flex-row">
-                                <button className=" rounded-full inline-flex text-black bg-cyan-300 border-0 py-2 px-6 focus:outline-none hover:bg-cyan-200 rounded text-lg my-2"><a href='https://groww-more.netlify.app/tweak'>Live Website</a></button>
+                                <button className=" rounded-full inline-flex text-black bg-cyan-300 border-0 py-2 px-6 focus:outline-none hover:bg-cyan-200 rounded text-lg my-2"><a href='https://groww-more.netlify.app/'>Live Website</a></button>
                                     <button className="md:ml-4 rounded-full inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg my-2"><a href='https://github.com/tonmoysardar11/stock'>View Code</a></button>
                                 </div>
                             </div>

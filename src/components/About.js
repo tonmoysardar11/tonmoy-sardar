@@ -22,7 +22,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className=" mx-2 lg:mx-20 lg:flex-grow md:w-1/2 lg:pr-4 md:pr-0 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                            <p className="leading-relaxed text-lg my-3 mx-3 w-full h-full"> <TypeAnimation sequence={[" Welcome to my portfolio! I'm Tonmoy Sardar,a self-taught & passionate Frontend developer with expertise in HTML, CSS, JavaScript, Bootstrap, React, and GitHub. I have a good foundation in front-end web development and a keen eye for creating visually appealing and user-friendly interfaces.Seeking full-time position thatoffers professional challenges utilizing interpersonal skills, excellent time management and problem-solving skills.", 500]} speed={80} /></p>
+                            <p className="leading-relaxed text-lg my-3 mx-3 w-full h-full"> <TypeAnimation sequence={[" Welcome to my portfolio! I'm Tonmoy Sardar,a self-taught & passionate Frontend developer with expertise in HTML, CSS, JavaScript, Tailwind, React, Redux and GitHub. I have a good foundation in front-end web development and a keen eye for creating visually appealing and user-friendly interfaces.Seeking full-time position thatoffers professional challenges utilizing interpersonal skills, excellent time management and problem-solving skills.", 500]} speed={80} /></p>
                         </div>
                     </div>
                     
